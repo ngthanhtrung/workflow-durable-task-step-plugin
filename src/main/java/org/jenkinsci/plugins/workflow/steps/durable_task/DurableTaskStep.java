@@ -324,7 +324,7 @@ public abstract class DurableTaskStep extends Step {
             } catch (Exception x) {
                 LOGGER.log(Level.FINE, "could not check " + workspace, x);
                 ws = null;
-                logger().println("Cannot contact " + node + ": " + x); // TODO as above
+                // logger().println("Cannot contact " + node + ": " + x); // TODO as above
             }
         }
 
